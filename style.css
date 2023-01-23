@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* used to no gap */
+}
+.sidebar{
+    background-color: rgb(200, 192, 192);
+    width: 434px;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 30px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 21px;
+    padding: 10px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.info{
+    height: 58vh;
+    width: 80vw;
+    margin: 107px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.hello{
+    font-size: 58px;
+}
+
+.name{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about{
+    font-size: 40px;
+}
+
+.buttons{
+    margin-top: 33px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color:dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: #fff;
+}
+
+.devpic img{
+    width: 250px;
+    height: 58vh;
+}
+.moreabout{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 23px;
+}
+/* TO make it resposive... */
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contactform h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.form-control{
+    width: 200px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.form-check-input{
+    width: 22px;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.skil{
+        display: flex;
+        flex-direction: row;
+        margin-left: 49px;
+    
+}
+.skil1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 68px;
+}
+#java{
+    background:green;
+    display: flex;
+    flex-direction: row;
+    
+}
+#js{
+    background:green;
+    display: flex;
+    flex-direction: row;
+    
+}
+.lebel{
+    padding: 14px;
+    margin-left: 161px;
+}
+
+
+    
