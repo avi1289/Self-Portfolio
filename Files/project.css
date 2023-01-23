@@ -1,0 +1,48 @@
+.main{
+    
+    /* flex-direction: column; */
+    padding: 19px;
+    margin-left: 25vw;
+
+}
+.maincont{
+    display: flex;
+    padding-bottom: 10vh;
+    padding-top: 4vh;
+}
+.projectDet{
+   
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    width: auto;
+    margin-left: 16vw;
+    padding: 1vw;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.Description{
+    font-size: 22px;
+    margin-left: 1vw;    
+}
+.description{
+    font-size: 15px;
+    
+    margin-left: 2vw;
+    margin-top: 2vh;
+
+}
+.projectimg{
+    
+    margin-top: 7vh;
+
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 25vw;
+}
